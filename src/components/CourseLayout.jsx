@@ -22,7 +22,7 @@ export function CourseForm({ courseName, accentColor = 'indigo' }) {
     e.preventDefault();
     setStatus('sending');
     try {
-      const res = await fetch('https://formspree.io/f/xyzplacer', {
+      const res = await fetch('https://formspree.io/f/mbdblwww', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({ ...formData, course: courseName }),
